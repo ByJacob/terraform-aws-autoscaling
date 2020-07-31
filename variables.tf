@@ -324,7 +324,7 @@ variable "max_instance_lifetime" {
 variable "create_cp" {
   description = "Whether to create capacity provider."
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "cp_name" {
